@@ -1,0 +1,650 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+nav {
+
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  justify-content: start;
+}
+
+.boxnav {
+  margin-left: 140px;
+  width: 1150px;
+}
+
+p {
+  margin-top: 58px;
+  color: #0c192c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span {
+  font-size: 35px;
+  margin-top: 90px;
+}
+
+.boxli {
+  padding-top: 78px;
+  width: 500px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.paginainicial {
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.item1:hover {
+  opacity: 0.5;
+}
+
+
+/* primeira parte com imagens */
+/* primeiro container*/
+
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: darkgrey;
+  margin-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+
+  align-self: center;
+  width: 500px;
+  margin-left: 38px;
+
+}
+
+.primeiroparagrafo {
+  font-size: 1.25rem;
+}
+
+.sp1 {
+  font-size: 2.8625rem;
+  font-weight: bolder;
+  color: #0c192c;
+
+
+}
+
+button {
+  margin-top: 55px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: solid;
+  cursor: pointer;
+  background: #0c192c;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+
+/*primeiras imagens*/
+
+.boximg {
+  width: 700px;
+  margin-left: 100px;
+}
+
+.img1 {
+  padding-left: 300px;
+
+}
+
+.planta {
+  width: 210px;
+  position: absolute;
+
+}
+
+.img2 {
+  padding-left: 94px;
+}
+
+.caderno {
+  width: 200px;
+  padding-bottom: 200px;
+}
+
+/*não precisa de div*/
+.teclado {
+  width: 400px;
+
+}
+
+
+
+/* Perfil do Profissional  */
+/*foto*/
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #847161;
+  margin-top: 160px;
+}
+
+.person {
+  height: 610px;
+  margin-left: 440px;
+  margin-top: 40px;
+}
+
+/* texto do perfil profissional */
+
+.boxtitulo {
+  padding: 5px 0px 0px 15px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.meunome {
+  font-size: 3.25rem;
+  border: solid #756456;
+  padding: 20px;
+
+}
+
+.boxtexto {
+  width: 450px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.575rem;
+}
+
+.subtitulo {
+  font-size: 1.25rem;
+  text-align: right;
+  font-weight: bold;
+}
+
+
+/* 01 02 03 */
+
+.container3 {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tituloc3 {
+  color: black;
+  grid-column: 1/4;
+  text-align: center;
+  padding: 50px;
+  margin-top: 120px;
+}
+
+.primeiro {
+  font-size: 12.5rem;
+  padding: 100px;
+  font-weight: bold;
+  text-align: center;
+  height: 500px;
+  color: #eac6a5;
+}
+
+.numeroum {
+  font-size: 12.25rem;
+}
+
+.numeroum:hover {
+  opacity: 0.4;
+}
+
+.textonumeroum {
+  color: black;
+  font-size: 28px;
+
+}
+
+.textonumeroum:hover {
+  background: 100% 3px;
+  opacity: 0.5;
+}
+
+.textonumeroum {
+  background-image: linear-gradient(90deg, rgb(251, 167, 42), rgb(14, 13, 13));
+  background-repeat: no-repeat;
+  background-size: 100% 3px;
+  transition: 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  background-position: left bottom;
+  font-weight: 900;
+}
+
+.segundo {
+  font-size: 12.5rem;
+  padding: 100px;
+  font-weight: bold;
+  text-align: center;
+  height: 500px;
+  color: #D7AC79;
+}
+
+.numerodois {
+  font-size: 12.25rem;
+
+}
+
+.numerodois:hover {
+
+  opacity: 0.4;
+}
+
+.textonumerodois {
+  color: black;
+  font-size: 28px;
+
+}
+
+.textonumerodois:hover {
+  background: 100% 3px;
+  opacity: 0.5;
+}
+
+.textonumerodois {
+  background-image: linear-gradient(90deg, rgb(251, 167, 42), rgb(14, 13, 13));
+  background-repeat: no-repeat;
+  background-size: 100% 3px;
+  transition: 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  background-position: left bottom;
+  font-weight: 900;
+
+}
+
+
+.terceiro {
+  font-size: 12.5rem;
+  padding: 100px;
+  font-weight: bold;
+  text-align: center;
+  height: 500px;
+  color: #957246;
+}
+
+.numerotres {
+  font-size: 12.25rem;
+}
+
+.numerotres:hover {
+  opacity: 0.4;
+
+
+}
+
+.textonumerotres {
+
+  color: black;
+  font-size: 28px;
+}
+
+.textonumerotres {
+  background-image: linear-gradient(90deg, rgb(251, 167, 42), rgb(14, 13, 13));
+  background-repeat: no-repeat;
+  background-size: 100% 3px;
+  transition: 500ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  background-position: left bottom;
+  font-weight: 900;
+
+}
+
+.textonumerotres:hover {
+  background: 100% 3px;
+  opacity: 0.5;
+}
+
+/* botão */
+
+.botao1 {
+
+  font-weight: bold;
+  text-align: center;
+  grid-column: 1/4;
+  height: 160px
+}
+
+.botao01 {
+  background: white;
+  color: black;
+}
+
+/* apresentação do serviços */
+
+.container4 {
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 100px;
+}
+
+.apresentacao {
+  background: #0c192c;
+  color: white;
+  display: grid;
+}
+
+.boxapresentacao {
+  width: 300px;
+  justify-self: center;
+  margin-top: 90px;
+}
+
+h6 {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.boxfazemos {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #c7ae62;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.boxtrabalhamos {
+  font-size: 1.6rem;
+  font-weight: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.botao02 {
+  background: #d2b45b;
+  color: #0c192c;
+  width: 280px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+
+/* serviços */
+.apresentacaoservico {
+  display: grid;
+  background: #0c192c;
+  font-family: 'Archivo', sans-serif;
+}
+
+.filho1 {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 2fr 1.8fr;
+  grid-template-rows: 1fr 1.3fr;
+  gap: 30px;
+  justify-items: end;
+  padding: 30px 40px 40px 0px;
+  background: #0c192c;
+  font-family: 'Archivo', sans-serif;
+  width: 950px;
+}
+
+.servico {
+  width: 400px;
+  height: 210px;
+  background: #111C2B;
+  border: rgb(105, 102, 102) 1px solid;
+  box-shadow:
+    0 0 2px #6c6669,
+    0 0 4px #cdc8cd;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  transition-duration: 1s;
+}
+
+.servico:hover {
+  scale: 1.1;
+}
+
+.imgservico {
+  width: 38px;
+  padding-top: 16px;
+}
+
+.descricao {
+  color: rgb(199, 174, 98);
+  font-size: 1.25rem;
+  padding: 15px 0px 15px 0px;
+}
+
+.textodescricao {
+  font-size: 1rem;
+}
+
+/* penultima parte */
+
+
+.container5 {
+  margin-top: 50px;
+  display: grid;
+  height: 350px;
+  text-align: center;
+  font-family: 'Archivo', sans-serif;
+}
+
+.boxfooter {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  height: 350px;
+  background: #0c192c;
+  justify-self: center;
+}
+
+
+.filha01 {
+  color: #957246;
+  font-weight: bold;
+  box-shadow:
+    0 0 10px #6c6669,
+    0 0 4px #cdc8cd;
+  font-size: 3rem;
+  padding-top: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  height: 200px;
+  margin: 64px 0 0 50px;
+  width: 550px;
+}
+
+.filha01:hover {
+  scale: 1.1;
+  transition-duration: 1s;
+}
+
+.filha02 {
+  text-align: center;
+}
+
+.boxprojeto {
+  margin-top: 65px;
+}
+
+.projetomaos {
+  color: #9e7340;
+  font-weight: bolder;
+  font-size: 3rem;
+
+}
+
+.enviaremail {
+  width: 290px;
+  height: 35px;
+  border-radius: 30px;
+  padding: 20px;
+  border: none;
+}
+
+.botaoenviar {
+  background: white;
+  color: #0c192c;
+  padding: 12px;
+  height: 45px;
+}
+
+.fim {
+  font-size: 0.9375rem;
+  text-align: center;
+  font-family: 'Archivo', sans-serif;
+  padding: 10px;
+
+}
+
+
+@media screen and (max-width: 1355px) {
+
+
+
+  nav {
+    width: 1575px;
+    height: 300px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    gap: 260px;
+
+  }
+
+  .boxnav {
+    font-size: 2.20rem;
+    padding: 14px;
+    width: 700px;
+  }
+
+  span {
+    font-size: 3.25rem;
+  }
+
+  .boxli {
+    width: 310px;
+    font-size: 2.45rem;
+    padding-bottom: 30px;
+  }
+
+  .redes {
+    width: 60px;
+  }
+
+
+  /* segunda parte */
+  /* perfil profissional */
+
+
+
+  header {
+    width: 1575px;
+
+  }
+
+  .container2 {
+    display: flex;
+    justify-items: center;
+  }
+
+  .img3mulher {
+    width: 750px;
+  }
+
+  .person {
+    position: relative;
+    right: 300px;
+    width: 700px;
+    height: 1000px;
+  }
+
+  .segundoparagrafo {
+    margin-left: 160px;
+    font-size: 2rem;
+  }
+
+  /* 01 02 03 */
+
+  .container3 {
+    width: 1300px;
+    margin-left: 104px;
+  }
+
+  /*cards */
+
+  .container4 {
+    width: 1300px;
+    margin-left: 103px;
+  }
+
+  /* footer */
+
+  .boxfooter {
+    width: 1000px;
+    margin-left: 258px;
+  }
+
+  .enviaremail {
+    width: 180px;
+  }
+
+  .botaoenviar {
+    padding: 12px;
+  }
+
+  .fim {
+    width: 700px;
+    margin-left: 410px;
+    padding: 20px;
+    text-align: center;
+    text-align: 4.25;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
