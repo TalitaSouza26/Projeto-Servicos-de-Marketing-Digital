@@ -4,5 +4,8 @@
 
 Pronpondo uma boa visualização de conteúdo para o usuario garantindo assim uma experiência satisfatoria. finalizo este projeto de forma responsiva, aberta para sugestões e melhorias. </h3>
 
-https://github.com/TalitaSouza26/Projeto-Servicos-de-Marketing-Digital/assets/136650770/8c465be5-afa0-4c43-9e43-9c11e40cc9da
+
+
+
+https://github.com/TalitaSouza26/Projeto-Servicos-de-Marketing-Digital/assets/136650770/711f2494-5858-44ca-8d2a-6dfbdb528e55
 
